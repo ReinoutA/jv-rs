@@ -1,0 +1,22 @@
+[package]
+name = "jv-rs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["Reinout Annaert"]
+description = "Linear assignment problem solver"
+keywords = ["assignment", "lap", "jonker-volgenant", "optimization"]
+categories = ["algorithms", "mathematics", "science"]
+repository = "https://github.com/ReinoutA/jv-rs"
+readme = "README.md"
+# GitHub distribution only until a license is selected.
+publish = false
+include = ["src/**", "tests/**", "Cargo.toml", "README.md"]
+
+[lib]
+name = "jv"
+
+[features]
+default = []
+
+[dependencies]
